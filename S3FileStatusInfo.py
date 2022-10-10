@@ -14,6 +14,7 @@ except ModuleNotFoundError:
     from util.custom_logger_compact import CustomLogger, STAT_LEVEL
 
 
+print('ANil')
 
 class S3FileStatusInfo:
 
