@@ -186,3 +186,5 @@ class ClientErrorException(Exception):
             return (error_mapping.get(self.message, self.message))
         else:
             return {self.message}
+
+print('Adding this line to commit')
